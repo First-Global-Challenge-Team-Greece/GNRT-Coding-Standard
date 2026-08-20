@@ -1,6 +1,6 @@
 # FGC Team Greece Coding Standard
 
-2026 ver. 2
+2026 ver. 3
 
 
 ## Πρόλογος
