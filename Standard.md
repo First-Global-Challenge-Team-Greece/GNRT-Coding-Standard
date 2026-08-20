@@ -146,7 +146,7 @@
   
   
 
-### 3.3 Pull Requests
+### 3.3 Δομή Pull Requests
 
 Τα pull request πρέπει να έχουν την ακόλουθη δομή:
 
@@ -177,9 +177,25 @@ Added Tank and Mecanum Drive
 - The interface between tank and mecanum drive is not streamlined.
 
   
+### 3.4 Code Reviews & Feedback
+
+Μόλις ένα μέλος της ομάδας κάνει pull request, η υπόλοιπη ομάδα μπορεί να ξεκινήσει την διαδηκασία του code review.
+
+Οι υπόλοιποι devs γράφουν σχόλια για:
+
+- Πιθανά λάθη
+
+- Βέλτιστες πρακτικές
+
+- Βελτιώσεις αποδωτικότητας
+
+Ο ιδιοκτήτης του PR δηλώνει ποιες αλλαγές σκοπεύει να εφαρμόσει και συνεχίζει να δουλεύει πάνω στο branch **χωρίς** να κλείσει το PR.
+
+Μόλις το branch φτάσει σε ικανοποιητική κατάσταση ο υπεύθυνος για το code review εγκρίνει τις αλλαγές και ο ιδιωκτήτης του PR κάνει συγχώνεψη.
+
   
 
-### 3.4 Ονομασία Των Branch
+### 3.5 Ονομασία Των Branch
 
 Τα branches μπορούν να έχουν ένα από τα παρακάτω ονόματα:
 
@@ -199,7 +215,7 @@ Added Tank and Mecanum Drive
 
 ### 4.1 Packages
 
-Κάθε κλάση μπορεί να είναι σε ένα από τα παρακάτω packages που βρίσκονται στο _org.firstinspires.__ftc.teamcode:_
+Κάθε κλάση μπορεί να είναι σε ένα από τα παρακάτω packages που βρίσκονται στο _org.firstinspires.ftc.teamcode:_
 
 - `Config`: εκεί ανήκουν τα configuration files
 
